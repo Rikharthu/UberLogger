@@ -10,5 +10,8 @@ public class ULoggerTest {
 
         ULog.init(ULog.LogLevel.DEBUG);
         ULog.d("%d %.9f %s", 13, 0.1337, "Hello");
+        ULog.e("%d %.9f %s", 13, 0.1337, "Hello");
+        ULog.i("%d %.9f %s", 13, 0.1337, "Hello");
+        ULog.wtf("%d %.9f %s", 13, 0.1337, "Hello");
     }
 }
